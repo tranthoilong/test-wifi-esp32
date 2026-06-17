@@ -1,0 +1,10 @@
+#pragma once
+
+// Ten WiFi ma ESP32 phat ra de ban ket noi va cau hinh
+#define AP_SSID "ESP32-C3-Setup"
+
+// Mat khau AP (toi thieu 8 ky tu). Nhieu dien thoai khong ket noi duoc AP mo.
+#define AP_PASSWORD "12345678"
+
+// Thoi gian cho cau hinh (giay), sau do ESP32 khoi dong lai
+#define CONFIG_PORTAL_TIMEOUT_SEC 300
